@@ -10,4 +10,8 @@ This is still a work in progress and will be updated as it progresses.
 
 <br>
 
-For now, the SAS code is for a random effects logistic regression model looking at whether or not someone engaged in physical activity. I am currently working on the code for the full two-part mixed effects model. 
+For now, the [SAS code](https://github.com/stcampione/Physical-Activity-Personality/blob/main/bring%20in%20data%20MIDUS%20refresher.sas) is for a random effects logistic regression model looking at whether or not someone engaged in physical activity. I am currently working on the code for the full two-part mixed effects model. 
+
+<br>
+
+Also included is the R script I used to check for statisticallly significant differences in the MIDUS samples ([R Script](https://github.com/stcampione/Physical-Activity-Personality/blob/main/M1%20MRef%20compare%20samples.R)).
