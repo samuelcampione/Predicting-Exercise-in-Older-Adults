@@ -1,0 +1,1210 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><META content="IE=5.0000" http-equiv="X-UA-Compatible">
+<TITLE>SAS Output</TITLE>
+<META name=GENERATOR content="MSHTML 11.00.10570.1001">
+<META content="text/html; charset=shift_jis" http-equiv=Content-type>
+<STYLE type=text/css>.accessiblecaption {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.activelink {
+	COLOR: #800080
+}
+.aftercaption {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; PADDING-TOP: 4pt; BORDER-SPACING: 0px; BACKGROUND-COLOR: #fafbfe
+}
+.batch {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 1px solid; FONT-FAMILY: 'SAS Monospace', 'MS Gothic', Courier, monospace; BORDER-RIGHT: #c1c1c1 1px solid; BORDER-COLLAPSE: separate; BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: normal; COLOR: #000000; PADDING-BOTTOM: 7px; FONT-STYLE: normal; PADDING-TOP: 7px; PADDING-LEFT: 7px; BORDER-SPACING: 1px; BORDER-LEFT: #c1c1c1 1px solid; PADDING-RIGHT: 7px; BACKGROUND-COLOR: #fafbfe
+}
+.beforecaption {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-SPACING: 0px; BACKGROUND-COLOR: #fafbfe
+}
+.body {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; MARGIN-LEFT: 8px; BACKGROUND-COLOR: #fafbfe; MARGIN-RIGHT: 8px
+}
+.bodydate {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; WIDTH: 100%; VERTICAL-ALIGN: top; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; TEXT-ALIGN: right; BORDER-SPACING: 0px; BACKGROUND-COLOR: #fafbfe
+}
+.bycontentfolder {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; MARGIN-LEFT: 6pt
+}
+.byline {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-SPACING: 0px; BACKGROUND-COLOR: #fafbfe
+}
+.bylinecontainer {
+	FONT-SIZE: x-small; BORDER-TOP: #000000 0px solid; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #000000 0px solid; WIDTH: 100%; BORDER-BOTTOM: #000000 0px solid; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BORDER-SPACING: 1px; BORDER-LEFT: #000000 0px solid; BACKGROUND-COLOR: #fafbfe
+}
+.caption {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-SPACING: 0px; BACKGROUND-COLOR: #fafbfe
+}
+.cell {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.container {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.contentfolder {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; MARGIN-LEFT: 6pt
+}
+.contentitem {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; MARGIN-LEFT: 6pt
+}
+.contentproclabel {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.contentprocname {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.contents {
+	LIST-STYLE-TYPE: decimal; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; MARGIN-LEFT: 8px; BACKGROUND-COLOR: #fafbfe; MARGIN-RIGHT: 8px
+}
+.contentsdate {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; WIDTH: 100%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.contenttitle {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: italic; BACKGROUND-COLOR: #fafbfe
+}
+.continued {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; WIDTH: 100%; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-SPACING: 0px; BACKGROUND-COLOR: #fafbfe
+}
+.data {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 0px solid; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #c1c1c1 1px solid; BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: normal; FONT-STYLE: normal; BORDER-LEFT: #c1c1c1 0px solid; BACKGROUND-COLOR: #ffffff
+}
+.dataemphasis {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 0px solid; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #c1c1c1 1px solid; BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: normal; FONT-STYLE: normal; BORDER-LEFT: #c1c1c1 0px solid; BACKGROUND-COLOR: #ffffff
+}
+.dataemphasisfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 0px solid; FONT-FAMILY: 'MS Gothic', Courier, monospace; BORDER-RIGHT: #c1c1c1 1px solid; BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: normal; FONT-STYLE: italic; BORDER-LEFT: #c1c1c1 0px solid; BACKGROUND-COLOR: #ffffff
+}
+.dataempty {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 0px solid; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #c1c1c1 1px solid; BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: normal; FONT-STYLE: normal; BORDER-LEFT: #c1c1c1 0px solid; BACKGROUND-COLOR: #ffffff
+}
+.datafixed {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 0px solid; FONT-FAMILY: 'MS Gothic', Courier; BORDER-RIGHT: #c1c1c1 1px solid; BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: normal; FONT-STYLE: normal; BORDER-LEFT: #c1c1c1 0px solid; BACKGROUND-COLOR: #ffffff
+}
+.datastrong {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 0px solid; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #c1c1c1 1px solid; BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BORDER-LEFT: #c1c1c1 0px solid; BACKGROUND-COLOR: #ffffff
+}
+.datastrongfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 0px solid; FONT-FAMILY: 'MS Gothic', Courier, monospace; BORDER-RIGHT: #c1c1c1 1px solid; BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BORDER-LEFT: #c1c1c1 0px solid; BACKGROUND-COLOR: #ffffff
+}
+.date {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; WIDTH: 100%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.document {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+A:link {
+	COLOR: #0000ff
+}
+A:visited {
+	COLOR: #800080
+}
+A:active {
+	COLOR: #800080
+}
+.errorbanner {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.errorcontent {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.errorcontentfixed {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS Gothic', Courier; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.extendedpage {
+	FONT-SIZE: x-small; BORDER-TOP: #000000 1pt solid; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #000000 1pt solid; BORDER-BOTTOM: #000000 1pt solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: italic; TEXT-ALIGN: center; BORDER-LEFT: #000000 1pt solid; BACKGROUND-COLOR: #fafbfe
+}
+.fatalbanner {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.fatalcontent {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.fatalcontentfixed {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS Gothic', Courier; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.folderaction {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; MARGIN-LEFT: 6pt
+}
+.footer {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.footeremphasis {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: italic; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.footeremphasisfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS Gothic', Courier, monospace; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: italic; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.footerempty {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.footerfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS Gothic', Courier; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.footerstrong {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.footerstrongfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS Gothic', Courier, monospace; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.frame {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.graph {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 1px solid; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #c1c1c1 1px solid; BORDER-COLLAPSE: separate; BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BORDER-SPACING: 1px; BORDER-LEFT: #c1c1c1 1px solid; BACKGROUND-COLOR: #fafbfe
+}
+.header {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.headeremphasis {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: italic; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #d8dbd3
+}
+.headeremphasisfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS Gothic', Courier, monospace; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: italic; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #d8dbd3
+}
+.headerempty {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.headerfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS Gothic', Courier; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.headersandfooters {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #edf2f9
+}
+.headerstrong {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #d8dbd3
+}
+.headerstrongfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS Gothic', Courier, monospace; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #d8dbd3
+}
+.heading1 {
+	FONT-FAMILY: 'MS PGothic', Helvetica, sans-serif
+}
+.heading2 {
+	FONT-FAMILY: 'MS PGothic', Helvetica, sans-serif
+}
+.heading3 {
+	FONT-FAMILY: 'MS PGothic', Helvetica, sans-serif
+}
+.heading4 {
+	FONT-FAMILY: 'MS PGothic', Helvetica, sans-serif
+}
+.heading5 {
+	FONT-FAMILY: 'MS PGothic', Helvetica, sans-serif
+}
+.heading6 {
+	FONT-FAMILY: 'MS PGothic', Helvetica, sans-serif
+}
+.index {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.indexaction {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; MARGIN-LEFT: 6pt
+}
+.indexitem {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; MARGIN-LEFT: 6pt
+}
+.indexprocname {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.indextitle {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: italic; BACKGROUND-COLOR: #fafbfe
+}
+.layoutcontainer {
+	BORDER-TOP: #000000 0px solid; BORDER-RIGHT: #000000 0px solid; BORDER-BOTTOM: #000000 0px solid; BORDER-SPACING: 30px; BORDER-LEFT: #000000 0px solid
+}
+.layoutregion {
+	BORDER-TOP: #000000 0px solid; BORDER-RIGHT: #000000 0px solid; BORDER-BOTTOM: #000000 0px solid; BORDER-SPACING: 30px; BORDER-LEFT: #000000 0px solid
+}
+.linecontent {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 0px solid; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #c1c1c1 1px solid; BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #c1c1c1 0px solid; BACKGROUND-COLOR: #fafbfe
+}
+.link {
+	COLOR: #0000ff
+}
+.list {
+	LIST-STYLE-TYPE: disc; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list10 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list2 {
+	LIST-STYLE-TYPE: circle; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list3 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list4 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list5 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list6 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list7 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list8 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list9 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem {
+	LIST-STYLE-TYPE: disc; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem10 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem2 {
+	LIST-STYLE-TYPE: circle; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem3 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem4 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem5 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem6 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem7 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem8 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem9 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.note {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.notebanner {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.notecontent {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.notecontentfixed {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS Gothic', Courier; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.output {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 1px solid; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #c1c1c1 1px solid; BORDER-COLLAPSE: separate; BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BORDER-SPACING: 1px; BORDER-LEFT: #c1c1c1 1px solid; BACKGROUND-COLOR: #fafbfe
+}
+.pageno {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; VERTICAL-ALIGN: top; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; TEXT-ALIGN: right; BORDER-SPACING: 0px; BACKGROUND-COLOR: #fafbfe
+}
+.pages {
+	LIST-STYLE-TYPE: decimal; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; MARGIN-LEFT: 8px; BACKGROUND-COLOR: #fafbfe; MARGIN-RIGHT: 8px
+}
+.pagesdate {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; WIDTH: 100%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.pagesitem {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; MARGIN-LEFT: 6pt
+}
+.pagesproclabel {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.pagesprocname {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.pagestitle {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: italic; BACKGROUND-COLOR: #fafbfe
+}
+.paragraph {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.parskip {
+	FONT-SIZE: x-small; BORDER-TOP: #000000 0px solid; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #000000 0px solid; BORDER-BOTTOM: #000000 0px solid; FONT-WEIGHT: bold; FONT-STYLE: normal; BORDER-SPACING: 0px; BORDER-LEFT: #000000 0px solid
+}
+.prepage {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; TEXT-ALIGN: left; BACKGROUND-COLOR: #fafbfe
+}
+.proctitle {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.proctitlefixed {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS Gothic', Courier, monospace; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.rowfooter {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowfooteremphasis {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: italic; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowfooteremphasisfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS Gothic', Courier, monospace; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: italic; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowfooterempty {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowfooterfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS Gothic', Courier; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowfooterstrong {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowfooterstrongfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS Gothic', Courier, monospace; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowheader {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowheaderemphasis {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: italic; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowheaderemphasisfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS Gothic', Courier, monospace; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: italic; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowheaderempty {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowheaderfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS Gothic', Courier; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowheaderstrong {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowheaderstrongfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS Gothic', Courier, monospace; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.systemfooter {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter10 {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter2 {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter3 {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter4 {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter5 {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter6 {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter7 {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter8 {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter9 {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemtitle {
+	FONT-SIZE: small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemtitle10 {
+	FONT-SIZE: small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemtitle2 {
+	FONT-SIZE: small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemtitle3 {
+	FONT-SIZE: small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemtitle4 {
+	FONT-SIZE: small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemtitle5 {
+	FONT-SIZE: small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemtitle6 {
+	FONT-SIZE: small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemtitle7 {
+	FONT-SIZE: small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemtitle8 {
+	FONT-SIZE: small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemtitle9 {
+	FONT-SIZE: small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systitleandfootercontainer {
+	FONT-SIZE: x-small; BORDER-TOP: #000000 0px solid; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #000000 0px solid; WIDTH: 100%; BORDER-BOTTOM: #000000 0px solid; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BORDER-SPACING: 1px; BORDER-LEFT: #000000 0px solid; BACKGROUND-COLOR: #fafbfe
+}
+.table {
+	BORDER-TOP: #c1c1c1 1px solid; BORDER-RIGHT: #c1c1c1 0px solid; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: #c1c1c1 0px solid; BORDER-SPACING: 0px; BORDER-LEFT: #c1c1c1 1px solid
+}
+.top_stacked_value {
+	BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 1px; BORDER-LEFT: 0px
+}
+.middle_stacked_value {
+	BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 1px; PADDING-TOP: 1px; BORDER-LEFT: 0px
+}
+.bottom_stacked_value {
+	BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; PADDING-TOP: 1px; BORDER-LEFT: 0px
+}
+.titleandnotecontainer {
+	FONT-SIZE: x-small; BORDER-TOP: #000000 0px solid; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #000000 0px solid; WIDTH: 100%; BORDER-BOTTOM: #000000 0px solid; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BORDER-SPACING: 1px; BORDER-LEFT: #000000 0px solid; BACKGROUND-COLOR: #fafbfe
+}
+.titlesandfooters {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.usertext {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.visitedlink {
+	COLOR: #800080
+}
+.warnbanner {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.warncontent {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.warncontentfixed {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS Gothic', Courier; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.l {
+	TEXT-ALIGN: left
+}
+.c {
+	TEXT-ALIGN: center
+}
+.r {
+	TEXT-ALIGN: right
+}
+.d {
+	TEXT-ALIGN: right
+}
+.j {
+	TEXT-ALIGN: justify
+}
+.t {
+	VERTICAL-ALIGN: top
+}
+.m {
+	VERTICAL-ALIGN: middle
+}
+.b {
+	VERTICAL-ALIGN: bottom
+}
+TD {
+	VERTICAL-ALIGN: top
+}
+TH {
+	VERTICAL-ALIGN: top
+}
+.stacked_cell {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+</STYLE>
+
+<SCRIPT language=javascript type=text/javascript>
+<!-- 
+function startup(){
+
+}
+function shutdown(){
+
+}
+
+//-->
+</SCRIPT>
+</HEAD>
+<BODY class=body onload=startup() onunload=shutdown()>
+<SCRIPT language=javascript type=text/javascript>
+<!-- 
+var _info = navigator.userAgent
+var _ie = (_info.indexOf("MSIE") > 0
+          && _info.indexOf("Win") > 0
+          && _info.indexOf("Windows 3.1") < 0);
+var _ie64 = _info.indexOf("x64") > 0
+
+//-->
+</SCRIPT>
+
+<DIV class=branch><A name=IDX></A>
+<TABLE class=systitleandfootercontainer cellSpacing=1 cellPadding=1 rules=none 
+width="100%" summary="Page Layout" border=0 frame=void>
+  <TBODY>
+  <TR>
+    <TD class="c systemtitle">conditional two part MELS for binary PA by 
+      personality </TD></TR></TBODY></TABLE><BR>
+<DIV class="c proctitle">The MCMC Procedure</DIV>
+<P>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure MCMC: Number of Observations" frame=box>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <TBODY>
+  <TR>
+    <TH class="l stacked_cell rowheader" scope=row>
+      <TABLE cellSpacing=0 cellPadding=5 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD class="l rowheader top_stacked_value" scope=row>Number of 
+            Observations Read</TD></TR>
+        <TR>
+          <TD class="l rowheader bottom_stacked_value" scope=row>Number of 
+            Observations Used</TD></TR></TBODY></TABLE></TH>
+    <TD class="r stacked_cell data">
+      <TABLE cellSpacing=0 cellPadding=5 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD class="r data top_stacked_value">653</TD></TR>
+        <TR>
+          <TD 
+  class="r data bottom_stacked_value">653</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV></DIV><BR><A 
+name=IDX1></A>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure MCMC: Parameters" frame=box>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class="c b header" colSpan=6 scope=colgroup>Parameters</TH></TR>
+  <TR>
+    <TH class="r b header" scope=col>Block</TH>
+    <TH class="l b header" scope=col>Parameter</TH>
+    <TH class="l b header" scope=col>Sampling<BR>Method</TH>
+    <TH class="r b header" scope=col>Threads</TH>
+    <TH class="r b header" scope=col>Initial<BR>Value</TH>
+    <TH class="l b header" scope=col>Prior Distribution</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class="r rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>a0</TH>
+    <TD class="l data">N-Metropolis</TD>
+    <TD class="r data">16</TD>
+    <TD class="r data">0.7736</TD>
+    <TD class="l data">normal(0,var=100)</TD></TR>
+  <TR>
+    <TH class="r rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>a1</TH>
+    <TD class="l data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data">0.9330</TD>
+    <TD class="l data">normal(0,var=100)</TD></TR>
+  <TR>
+    <TH class="r rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>a2</TH>
+    <TD class="l data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data" noWrap>-0.0456</TD>
+    <TD class="l data">normal(0,var=100)</TD></TR>
+  <TR>
+    <TH class="r rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>a3</TH>
+    <TD class="l data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data" noWrap>-0.8117</TD>
+    <TD class="l data">normal(0,var=100)</TD></TR>
+  <TR>
+    <TH class="r rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>a6</TH>
+    <TD class="l data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data" noWrap>-0.6337</TD>
+    <TD class="l data">normal(0,var=100)</TD></TR>
+  <TR>
+    <TH class="r rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>a7a</TH>
+    <TD class="l data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data">0.9847</TD>
+    <TD class="l data">normal(0,var=100)</TD></TR>
+  <TR>
+    <TH class="r rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>a7b</TH>
+    <TD class="l data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data" noWrap>-0.2203</TD>
+    <TD class="l data">normal(0,var=100)</TD></TR>
+  <TR>
+    <TH class="r rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>a7c</TH>
+    <TD class="l data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data">0.1215</TD>
+    <TD class="l data">normal(0,var=100)</TD></TR>
+  <TR>
+    <TH class="r rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>a7d</TH>
+    <TD class="l data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data" noWrap>-0.6762</TD>
+    <TD class="l data">normal(0,var=100)</TD></TR>
+  <TR>
+    <TH class="r rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>a7e</TH>
+    <TD class="l data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data">0.4013</TD>
+    <TD class="l data">normal(0,var=100)</TD></TR>
+  <TR>
+    <TH class="r rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>a8c</TH>
+    <TD class="l data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data">0</TD>
+    <TD class="l data">normal(0,var=100)</TD></TR>
+  <TR>
+    <TH class="r rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>alp0</TH>
+    <TD class="l data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data" noWrap>-2.8369</TD>
+    <TD class="l data">normal(0,var=100)</TD></TR>
+  <TR>
+    <TH class="r rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>alp1</TH>
+    <TD class="l data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data">1.1285</TD>
+    <TD class="l data">normal(0,var=100)</TD></TR>
+  <TR>
+    <TH class="r rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>alp2</TH>
+    <TD class="l data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data">0.1645</TD>
+    <TD class="l data">normal(0,var=100)</TD></TR>
+  <TR>
+    <TH class="r rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>alp3</TH>
+    <TD class="l data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data">0.7694</TD>
+    <TD class="l data">normal(0,var=100)</TD></TR>
+  <TR>
+    <TH class="r rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>alp6</TH>
+    <TD class="l data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data">0.2074</TD>
+    <TD class="l data">normal(0,var=100)</TD></TR>
+  <TR>
+    <TH class="r rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>alp7a</TH>
+    <TD class="l data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data">2.9071</TD>
+    <TD class="l data">normal(0,var=100)</TD></TR>
+  <TR>
+    <TH class="r rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>alp7b</TH>
+    <TD class="l data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data">0.0459</TD>
+    <TD class="l data">normal(0,var=100)</TD></TR>
+  <TR>
+    <TH class="r rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>alp7c</TH>
+    <TD class="l data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data">2.4668</TD>
+    <TD class="l data">normal(0,var=100)</TD></TR>
+  <TR>
+    <TH class="r rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>alp7d</TH>
+    <TD class="l data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data" noWrap>-2.4019</TD>
+    <TD class="l data">normal(0,var=100)</TD></TR>
+  <TR>
+    <TH class="r rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>alp7e</TH>
+    <TD class="l data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data">0.2312</TD>
+    <TD class="l data">normal(0,var=100)</TD></TR>
+  <TR>
+    <TH class="r rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>alp8c</TH>
+    <TD class="l data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data">0</TD>
+    <TD class="l data">normal(0,var=100)</TD></TR></TBODY></TABLE></DIV></DIV><BR><A 
+name=IDX2></A>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure MCMC: Random-Effects Parameters" frame=box>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <COLGROUP></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class="c b header" colSpan=7 scope=colgroup>Random Effect 
+  Parameters</TH></TR>
+  <TR>
+    <TH class="l b header" scope=col>Parameter</TH>
+    <TH class="l b header" scope=col>Sampling<BR>Method</TH>
+    <TH class="r b header" scope=col>Threads</TH>
+    <TH class="r b header" scope=col>Subject</TH>
+    <TH class="r b header" scope=col>Number of<BR>Subjects</TH>
+    <TH class="l b header" scope=col>Subject<BR>Values</TH>
+    <TH class="l b header" scope=col>Prior<BR>Distribution</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>ai</TH>
+    <TD class="l data">N-Metropolis</TD>
+    <TD class="r data">16</TD>
+    <TH class="r data">MRID</TH>
+    <TH class="r data">84</TH>
+    <TH class="l data">30886 30980 30997 31009 31052 31309 31540 31641 31738 
+      31820 31915 32001 32113 32137 32146 32336 32399 32407 32433 32627 ...</TH>
+    <TH class="l data">normal(0,sd=1)</TH></TR></TBODY></TABLE></DIV></DIV><BR>
+<P style="PAGE-BREAK-AFTER: always"><BR></P>
+<HR SIZE=3>
+<A name=IDX3></A>
+<TABLE class=systitleandfootercontainer cellSpacing=1 cellPadding=1 rules=none 
+width="100%" summary="Page Layout" border=0 frame=void>
+  <TBODY>
+  <TR>
+    <TD class="c systemtitle">conditional two part MELS for binary PA by 
+      personality </TD></TR></TBODY></TABLE><BR>
+<DIV class="c proctitle">The MCMC Procedure</DIV>
+<P>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure MCMC: Summary and Interval Statistics" frame=box>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class="c b header" colSpan=6 scope=colgroup>Posterior Summaries and 
+      Intervals</TH></TR>
+  <TR>
+    <TH class="l b header" scope=col>Parameter</TH>
+    <TH class="r b header" scope=col>N</TH>
+    <TH class="r b header" scope=col>Mean</TH>
+    <TH class="r b header" scope=col>Standard<BR>Deviation</TH>
+    <TH class="c b header" colSpan=2 scope=colgroup>95% HPD 
+  Interval</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>a0</TH>
+    <TD class="r data">10000</TD>
+    <TD class="r data">1.8569</TD>
+    <TD class="r data">0.5061</TD>
+    <TD class="r data">0.9198</TD>
+    <TD class="r data">2.8859</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>a1</TH>
+    <TD class="r data">10000</TD>
+    <TD class="r data" noWrap>-0.5449</TD>
+    <TD class="r data">0.2759</TD>
+    <TD class="r data" noWrap>-1.0963</TD>
+    <TD class="r data" noWrap>-0.00172</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>a2</TH>
+    <TD class="r data">10000</TD>
+    <TD class="r data" noWrap>-0.0809</TD>
+    <TD class="r data">0.0555</TD>
+    <TD class="r data" noWrap>-0.1811</TD>
+    <TD class="r data">0.0334</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>a3</TH>
+    <TD class="r data">10000</TD>
+    <TD class="r data" noWrap>-0.9799</TD>
+    <TD class="r data">0.4306</TD>
+    <TD class="r data" noWrap>-1.8471</TD>
+    <TD class="r data" noWrap>-0.1532</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>a6</TH>
+    <TD class="r data">10000</TD>
+    <TD class="r data" noWrap>-0.6731</TD>
+    <TD class="r data">0.3403</TD>
+    <TD class="r data" noWrap>-1.3314</TD>
+    <TD class="r data" noWrap>-0.00233</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>a7a</TH>
+    <TD class="r data">10000</TD>
+    <TD class="r data">0.1773</TD>
+    <TD class="r data">0.9203</TD>
+    <TD class="r data" noWrap>-1.4574</TD>
+    <TD class="r data">2.0532</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>a7b</TH>
+    <TD class="r data">10000</TD>
+    <TD class="r data">0.0802</TD>
+    <TD class="r data">0.4893</TD>
+    <TD class="r data" noWrap>-0.8769</TD>
+    <TD class="r data">1.0497</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>a7c</TH>
+    <TD class="r data">10000</TD>
+    <TD class="r data">0.6295</TD>
+    <TD class="r data">0.5440</TD>
+    <TD class="r data" noWrap>-0.3869</TD>
+    <TD class="r data">1.6958</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>a7d</TH>
+    <TD class="r data">10000</TD>
+    <TD class="r data" noWrap>-0.6318</TD>
+    <TD class="r data">0.6103</TD>
+    <TD class="r data" noWrap>-1.8596</TD>
+    <TD class="r data">0.5584</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>a7e</TH>
+    <TD class="r data">10000</TD>
+    <TD class="r data" noWrap>-0.2297</TD>
+    <TD class="r data">0.4469</TD>
+    <TD class="r data" noWrap>-1.1253</TD>
+    <TD class="r data">0.6163</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>a8c</TH>
+    <TD class="r data">10000</TD>
+    <TD class="r data" noWrap>-0.4300</TD>
+    <TD class="r data">0.4907</TD>
+    <TD class="r data" noWrap>-1.3954</TD>
+    <TD class="r data">0.5239</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>alp0</TH>
+    <TD class="r data">10000</TD>
+    <TD class="r data" noWrap>-0.0301</TD>
+    <TD class="r data">1.1042</TD>
+    <TD class="r data" noWrap>-2.1888</TD>
+    <TD class="r data">2.0459</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>alp1</TH>
+    <TD class="r data">10000</TD>
+    <TD class="r data">0.5766</TD>
+    <TD class="r data">0.6269</TD>
+    <TD class="r data" noWrap>-0.6614</TD>
+    <TD class="r data">1.7610</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>alp2</TH>
+    <TD class="r data">10000</TD>
+    <TD class="r data">0.0611</TD>
+    <TD class="r data">0.0843</TD>
+    <TD class="r data" noWrap>-0.1017</TD>
+    <TD class="r data">0.2285</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>alp3</TH>
+    <TD class="r data">10000</TD>
+    <TD class="r data">0.1697</TD>
+    <TD class="r data">0.8171</TD>
+    <TD class="r data" noWrap>-1.4507</TD>
+    <TD class="r data">1.7040</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>alp6</TH>
+    <TD class="r data">10000</TD>
+    <TD class="r data" noWrap>-0.3258</TD>
+    <TD class="r data">0.7078</TD>
+    <TD class="r data" noWrap>-1.7280</TD>
+    <TD class="r data">1.0837</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>alp7a</TH>
+    <TD class="r data">10000</TD>
+    <TD class="r data">0.8090</TD>
+    <TD class="r data">1.4744</TD>
+    <TD class="r data" noWrap>-1.9782</TD>
+    <TD class="r data">3.7615</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>alp7b</TH>
+    <TD class="r data">10000</TD>
+    <TD class="r data" noWrap>-0.8098</TD>
+    <TD class="r data">1.0722</TD>
+    <TD class="r data" noWrap>-2.9034</TD>
+    <TD class="r data">1.2707</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>alp7c</TH>
+    <TD class="r data">10000</TD>
+    <TD class="r data">2.7951</TD>
+    <TD class="r data">1.3907</TD>
+    <TD class="r data">0.2222</TD>
+    <TD class="r data">5.6681</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>alp7d</TH>
+    <TD class="r data">10000</TD>
+    <TD class="r data" noWrap>-1.2945</TD>
+    <TD class="r data">1.2269</TD>
+    <TD class="r data" noWrap>-3.6974</TD>
+    <TD class="r data">1.0765</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>alp7e</TH>
+    <TD class="r data">10000</TD>
+    <TD class="r data" noWrap>-0.5546</TD>
+    <TD class="r data">0.7247</TD>
+    <TD class="r data" noWrap>-2.0559</TD>
+    <TD class="r data">0.7844</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>alp8c</TH>
+    <TD class="r data">10000</TD>
+    <TD class="r data">0.8346</TD>
+    <TD class="r data">1.0539</TD>
+    <TD class="r data" noWrap>-1.1614</TD>
+    <TD class="r data">2.9656</TD></TR></TBODY></TABLE></DIV></DIV><BR>
+<P style="PAGE-BREAK-AFTER: always"><BR></P>
+<HR SIZE=3>
+<A name=IDX4></A>
+<TABLE class=systitleandfootercontainer cellSpacing=1 cellPadding=1 rules=none 
+width="100%" summary="Page Layout" border=0 frame=void>
+  <TBODY>
+  <TR>
+    <TD class="c systemtitle">conditional two part MELS for binary PA by 
+      personality </TD></TR></TBODY></TABLE><BR>
+<DIV class="c proctitle">The MCMC Procedure</DIV>
+<P>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure MCMC: Effective Sample Sizes" frame=box>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class="c b header" colSpan=4 scope=colgroup>Effective Sample 
+  Sizes</TH></TR>
+  <TR>
+    <TH class="l b header" scope=col>Parameter</TH>
+    <TH class="r b header" scope=col>ESS</TH>
+    <TH class="r b header" scope=col>Autocorrelation<BR>Time</TH>
+    <TH class="r b header" scope=col>Efficiency</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>a0</TH>
+    <TD class="r data">4211.3</TD>
+    <TD class="r data">2.3746</TD>
+    <TD class="r data">0.4211</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>a1</TH>
+    <TD class="r data">6527.2</TD>
+    <TD class="r data">1.5320</TD>
+    <TD class="r data">0.6527</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>a2</TH>
+    <TD class="r data">1690.4</TD>
+    <TD class="r data">5.9158</TD>
+    <TD class="r data">0.1690</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>a3</TH>
+    <TD class="r data">8030.7</TD>
+    <TD class="r data">1.2452</TD>
+    <TD class="r data">0.8031</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>a6</TH>
+    <TD class="r data">6588.8</TD>
+    <TD class="r data">1.5177</TD>
+    <TD class="r data">0.6589</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>a7a</TH>
+    <TD class="r data">1225.9</TD>
+    <TD class="r data">8.1570</TD>
+    <TD class="r data">0.1226</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>a7b</TH>
+    <TD class="r data">6157.1</TD>
+    <TD class="r data">1.6241</TD>
+    <TD class="r data">0.6157</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>a7c</TH>
+    <TD class="r data">1552.2</TD>
+    <TD class="r data">6.4426</TD>
+    <TD class="r data">0.1552</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>a7d</TH>
+    <TD class="r data">3254.6</TD>
+    <TD class="r data">3.0726</TD>
+    <TD class="r data">0.3255</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>a7e</TH>
+    <TD class="r data">2092.1</TD>
+    <TD class="r data">4.7799</TD>
+    <TD class="r data">0.2092</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>a8c</TH>
+    <TD class="r data">5255.4</TD>
+    <TD class="r data">1.9028</TD>
+    <TD class="r data">0.5255</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>alp0</TH>
+    <TD class="r data">1179.2</TD>
+    <TD class="r data">8.4807</TD>
+    <TD class="r data">0.1179</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>alp1</TH>
+    <TD class="r data">1831.5</TD>
+    <TD class="r data">5.4599</TD>
+    <TD class="r data">0.1832</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>alp2</TH>
+    <TD class="r data">3846.3</TD>
+    <TD class="r data">2.5999</TD>
+    <TD class="r data">0.3846</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>alp3</TH>
+    <TD class="r data">2231.1</TD>
+    <TD class="r data">4.4821</TD>
+    <TD class="r data">0.2231</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>alp6</TH>
+    <TD class="r data">3065.4</TD>
+    <TD class="r data">3.2622</TD>
+    <TD class="r data">0.3065</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>alp7a</TH>
+    <TD class="r data">857.5</TD>
+    <TD class="r data">11.6623</TD>
+    <TD class="r data">0.0857</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>alp7b</TH>
+    <TD class="r data">4300.3</TD>
+    <TD class="r data">2.3254</TD>
+    <TD class="r data">0.4300</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>alp7c</TH>
+    <TD class="r data">1058.5</TD>
+    <TD class="r data">9.4476</TD>
+    <TD class="r data">0.1058</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>alp7d</TH>
+    <TD class="r data">1371.8</TD>
+    <TD class="r data">7.2894</TD>
+    <TD class="r data">0.1372</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>alp7e</TH>
+    <TD class="r data">3615.8</TD>
+    <TD class="r data">2.7656</TD>
+    <TD class="r data">0.3616</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>alp8c</TH>
+    <TD class="r data">1654.4</TD>
+    <TD class="r data">6.0444</TD>
+    <TD class="r data">0.1654</TD></TR></TBODY></TABLE></DIV></DIV><BR>
+<P style="PAGE-BREAK-AFTER: always"><BR></P>
+<HR SIZE=3>
+<A name=IDX5></A>
+<TABLE class=systitleandfootercontainer cellSpacing=1 cellPadding=1 rules=none 
+width="100%" summary="Page Layout" border=0 frame=void>
+  <TBODY>
+  <TR>
+    <TD class="c systemtitle">conditional two part MELS for binary PA by 
+      personality </TD></TR></TBODY></TABLE><BR>
+<DIV class="c proctitle">The MCMC Procedure</DIV>
+<P>
+<DIV>
+<DIV class=c><IMG class=c style="HEIGHT: 480px; WIDTH: 640px" border=0 
+alt="Diagnostic Plots for a0" src="PA_midusrefresher_files/TADPanel22.png"> 
+</DIV></DIV><BR><A name=IDX6></A>
+<DIV>
+<DIV class=c><IMG class=c style="HEIGHT: 480px; WIDTH: 640px" border=0 
+alt="Diagnostic Plots for a1" src="PA_midusrefresher_files/TADPanel23.png"> 
+</DIV></DIV><BR><A name=IDX7></A>
+<DIV>
+<DIV class=c><IMG class=c style="HEIGHT: 480px; WIDTH: 640px" border=0 
+alt="Diagnostic Plots for a2" src="PA_midusrefresher_files/TADPanel24.png"> 
+</DIV></DIV><BR><A name=IDX8></A>
+<DIV>
+<DIV class=c><IMG class=c style="HEIGHT: 480px; WIDTH: 640px" border=0 
+alt="Diagnostic Plots for a3" src="PA_midusrefresher_files/TADPanel25.png"> 
+</DIV></DIV><BR><A name=IDX9></A>
+<DIV>
+<DIV class=c><IMG class=c style="HEIGHT: 480px; WIDTH: 640px" border=0 
+alt="Diagnostic Plots for a6" src="PA_midusrefresher_files/TADPanel26.png"> 
+</DIV></DIV><BR><A name=IDX10></A>
+<DIV>
+<DIV class=c><IMG class=c style="HEIGHT: 480px; WIDTH: 640px" border=0 
+alt="Diagnostic Plots for a7a" src="PA_midusrefresher_files/TADPanel27.png"> 
+</DIV></DIV><BR><A name=IDX11></A>
+<DIV>
+<DIV class=c><IMG class=c style="HEIGHT: 480px; WIDTH: 640px" border=0 
+alt="Diagnostic Plots for a7b" src="PA_midusrefresher_files/TADPanel28.png"> 
+</DIV></DIV><BR><A name=IDX12></A>
+<DIV>
+<DIV class=c><IMG class=c style="HEIGHT: 480px; WIDTH: 640px" border=0 
+alt="Diagnostic Plots for a7c" src="PA_midusrefresher_files/TADPanel29.png"> 
+</DIV></DIV><BR><A name=IDX13></A>
+<DIV>
+<DIV class=c><IMG class=c style="HEIGHT: 480px; WIDTH: 640px" border=0 
+alt="Diagnostic Plots for a7d" src="PA_midusrefresher_files/TADPanel30.png"> 
+</DIV></DIV><BR><A name=IDX14></A>
+<DIV>
+<DIV class=c><IMG class=c style="HEIGHT: 480px; WIDTH: 640px" border=0 
+alt="Diagnostic Plots for a7e" src="PA_midusrefresher_files/TADPanel31.png"> 
+</DIV></DIV><BR><A name=IDX15></A>
+<DIV>
+<DIV class=c><IMG class=c style="HEIGHT: 480px; WIDTH: 640px" border=0 
+alt="Diagnostic Plots for a8c" src="PA_midusrefresher_files/TADPanel32.png"> 
+</DIV></DIV><BR><A name=IDX16></A>
+<DIV>
+<DIV class=c><IMG class=c style="HEIGHT: 480px; WIDTH: 640px" border=0 
+alt="Diagnostic Plots for alp0" src="PA_midusrefresher_files/TADPanel33.png"> 
+</DIV></DIV><BR><A name=IDX17></A>
+<DIV>
+<DIV class=c><IMG class=c style="HEIGHT: 480px; WIDTH: 640px" border=0 
+alt="Diagnostic Plots for alp1" src="PA_midusrefresher_files/TADPanel34.png"> 
+</DIV></DIV><BR><A name=IDX18></A>
+<DIV>
+<DIV class=c><IMG class=c style="HEIGHT: 480px; WIDTH: 640px" border=0 
+alt="Diagnostic Plots for alp2" src="PA_midusrefresher_files/TADPanel35.png"> 
+</DIV></DIV><BR><A name=IDX19></A>
+<DIV>
+<DIV class=c><IMG class=c style="HEIGHT: 480px; WIDTH: 640px" border=0 
+alt="Diagnostic Plots for alp3" src="PA_midusrefresher_files/TADPanel36.png"> 
+</DIV></DIV><BR><A name=IDX20></A>
+<DIV>
+<DIV class=c><IMG class=c style="HEIGHT: 480px; WIDTH: 640px" border=0 
+alt="Diagnostic Plots for alp6" src="PA_midusrefresher_files/TADPanel37.png"> 
+</DIV></DIV><BR><A name=IDX21></A>
+<DIV>
+<DIV class=c><IMG class=c style="HEIGHT: 480px; WIDTH: 640px" border=0 
+alt="Diagnostic Plots for alp7a" src="PA_midusrefresher_files/TADPanel38.png"> 
+</DIV></DIV><BR><A name=IDX22></A>
+<DIV>
+<DIV class=c><IMG class=c style="HEIGHT: 480px; WIDTH: 640px" border=0 
+alt="Diagnostic Plots for alp7b" src="PA_midusrefresher_files/TADPanel39.png"> 
+</DIV></DIV><BR><A name=IDX23></A>
+<DIV>
+<DIV class=c><IMG class=c style="HEIGHT: 480px; WIDTH: 640px" border=0 
+alt="Diagnostic Plots for alp7c" src="PA_midusrefresher_files/TADPanel40.png"> 
+</DIV></DIV><BR><A name=IDX24></A>
+<DIV>
+<DIV class=c><IMG class=c style="HEIGHT: 480px; WIDTH: 640px" border=0 
+alt="Diagnostic Plots for alp7d" src="PA_midusrefresher_files/TADPanel41.png"> 
+</DIV></DIV><BR><A name=IDX25></A>
+<DIV>
+<DIV class=c><IMG class=c style="HEIGHT: 480px; WIDTH: 640px" border=0 
+alt="Diagnostic Plots for alp7e" src="PA_midusrefresher_files/TADPanel42.png"> 
+</DIV></DIV><BR><A name=IDX26></A>
+<DIV>
+<DIV class=c><IMG class=c style="HEIGHT: 480px; WIDTH: 640px" border=0 
+alt="Diagnostic Plots for alp8c" src="PA_midusrefresher_files/TADPanel43.png"> 
+</DIV></DIV><BR></DIV></BODY></HTML>

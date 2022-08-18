@@ -1,0 +1,73 @@
+File Manifest for ICPSR 37083
+
+Ryff, Carol D., and David M. Almeida. Midlife in the United States (MIDUS
+Refresher 1): Daily Diary Project, 2012-2014. ICPSR37083-v2. Ann Arbor, MI:
+Inter-university Consortium for Political and Social Research
+[distributor], 2020-12-14. http://doi.org/10.3886/ICPSR37083.v2
+
+Details on the version history can be found below the file listings.
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    37083-descriptioncitation.pdf       -       -         -       2021-09-30  -
+
+    37083-related_literature.txt        -       -         -       daily       -
+
+    37083-manifest.txt                  -       -         -       daily       -
+
+
+DS0001 Midlife in the United States (MIDUS Refresher 1): Daily Diary
+Project, 2012-2014
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    37083-0001-Codebook-ICPSR.pdf       -       -         -       2020-12-14  4a318b52a2b9126918c4af58e2e53f13
+
+    37083-0001-Codebook-MIDUS_DDI.pdf   -       -         -       2020-12-14  c3a64461b2171a12a54a0f3d93369187
+
+    37083-0001-Data.dta                 -       5,849     604     2020-12-14  a48b70051b376df666d556613433ad41
+
+    37083-0001-Data.rda                 -       5,849     604     2020-12-14  efe79bffe6fadb621d675cd90e7fbe7a
+
+    37083-0001-Data.sav                 -       5,849     604     2020-12-14  7d5d92453761020d46650d1bef1c8782
+
+    37083-0001-Data.stc                 -       5,849     604     2020-12-14  6f8fa4ce7811548928c596dfef20154a
+
+    37083-0001-Data.tsv                 -       5,849     604     2020-12-14  7abf770aa9a2bcd4072d0f02b42f65eb
+
+    37083-0001-Data.txt                 1133    5,849     604     2020-12-14  61f9113b2b72b3873a0ebdb85d7ef9f9
+
+    37083-0001-Documentation-description.pdf -       -         -       2020-12-14  ef96537656eb47fabad80f8375c44b9f
+
+    37083-0001-Documentation-readme.pdf -       -         -       2020-12-14  75e6f244d34760c6ce63166861f780e2
+
+    37083-0001-Documentation-saliva.pdf -       -         -       2020-12-14  33e3763f43290182a0459c7ff881d521
+
+    37083-0001-Documentation-scales.pdf -       -         -       2020-12-14  d37d8912727f81a55ad19b5884c9a316
+
+    37083-0001-Questionnaire.pdf        -       -         -       2018-06-06  7d93e8fc172e1726856c34db70a2ed0c
+
+    37083-0001-Setup.dct                -       -         -       2020-12-14  d8f91f4fcfc37ebc198d077791182f38
+
+    37083-0001-Setup.do                 -       -         -       2020-12-14  3810899c9326fe3586c242e40181ce03
+
+    37083-0001-Setup.sas                -       -         -       2020-12-14  9d6d1923cd9c8bfbf6ecf7e3298abe29
+
+    37083-0001-Setup.sps                -       -         -       2020-12-14  b61b19232453c2c9cf36d2e0aefc4528
+
+    37083-0001-Supplemental_syntax.do   -       -         -       2020-12-14  c1ad0cafb80f5ac4a6efae68c4080b81
+
+    37083-0001-Supplemental_syntax.sas  -       -         -       2020-12-14  1ea9bbc8dd201b92e64c6d46c5e147fc
+
+
+Version History
+
+2020-12-14 Study was updated from Level 1 to Level 3 curation. Changes to
+the study include the addition of question text fields, sentence casing and
+grammatically correct edits to variable and value labels, and the
+replacement of document files with newer P.I.-deposited versions.

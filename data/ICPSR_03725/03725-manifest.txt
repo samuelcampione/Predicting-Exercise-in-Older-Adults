@@ -1,0 +1,75 @@
+File Manifest for ICPSR 3725
+
+Almeida, David M. Midlife in the United States (MIDUS 1) National Study of
+Daily Experiences (NSDE), 1996-1997. ICPSR03725-v5. Ann Arbor, MI: Inter-
+university Consortium for Political and Social Research [distributor],
+2017-11-17. http://doi.org/10.3886/ICPSR03725.v5
+
+Details on the version history can be found below the file listings.
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    03725-descriptioncitation.pdf       -       -         -       2017-11-17  -
+
+    03725-related_literature.txt        -       -         -       daily       -
+
+    03725-manifest.txt                  -       -         -       daily       -
+
+
+DS0001 Midlife in the United States (MIDUS 1) National Study of Daily
+Experiences (NSDE), 1996-1997
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    03725-0001-Codebook-icpsr.pdf       -       -         -       2017-11-17  0b6682c871e34d98b80f0e6327f7e1ba
+
+    03725-0001-Codebook-midus_ddi.pdf   -       -         -       2017-11-17  16e55b0ae4202b5fc6715ac40bc1e04d
+
+    03725-0001-Data.dta                 -       10,488    333     2017-11-17  a5f852f963ad69f7fc956cd5b9486e73
+
+    03725-0001-Data.rda                 -       10,488    333     2017-11-17  5d1b4655acdcee834581554364140e8b
+
+    03725-0001-Data.sav                 -       10,488    333     2017-11-17  595611a3bc1d6a23d6d47f0859820394
+
+    03725-0001-Data.stc                 -       10,488    333     2017-11-17  ac731eb61c1a7dc33453a198edc368f3
+
+    03725-0001-Data.tsv                 -       10,488    333     2017-11-17  e05bab9b6d52fa2e526ce4311b25b84f
+
+    03725-0001-Data.txt                 678     10,488    333     2017-11-17  9a0d8a8f18b1c9d2cd0f59ff676355b8
+
+    03725-0001-Documentation-midus_readme.pdf -       -         -       2017-11-17  c865d5c60997157ed88735b53271e92f
+
+    03725-0001-Setup.dct                -       -         -       2017-11-17  341a42dc2302f3e9e14815ca051dbd0e
+
+    03725-0001-Setup.do                 -       -         -       2017-11-17  bc27db060a0d1a84429326e1c652dd0a
+
+    03725-0001-Setup.sas                -       -         -       2017-11-17  723207f6ac0d555fce1b9932c185bc2a
+
+    03725-0001-Setup.sps                -       -         -       2017-11-17  f60906c30d1b8d7f21a00e79fcfece63
+
+    03725-0001-Supplemental_syntax.do   -       -         -       2017-11-17  948ed2a475bfc1f6c5e4706382f2542d
+
+    03725-0001-Supplemental_syntax.sas  -       -         -       2017-11-17  e0dd13e6da5ce0d9f9d670dd12e90af9
+
+    03725-0001-User_guide.pdf           -       -         -       2017-11-17  93f03dd66ee15a775aa63a767a2790d9
+
+    03725-0001-Zipped_package.zip       -       -         -       2017-11-17  7e21b31b99fb1fe3ea9dfb65147a785e
+
+
+Version History
+
+2017-11-17 This collection is being updated, per request from the PI, to
+reflect a title change; the corresponding downloadable files are only being
+updated to reflect the title change, where applicable.  2015-02-26 The XML
+file was updated to ensure that the full number of decimals within
+variables is being retained.  2014-12-19 Documentation files have been
+updated.  2014-12-16 Several variables in this dataset have been removed or
+renamed. Many variable and value labels have been updated. MIDUS coding
+conventions have been applied to values and value labels. The documentation
+has been updated. The title has been changed to better correspond with
+other MIDUS projects.
