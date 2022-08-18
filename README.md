@@ -1,12 +1,12 @@
-# Physical-Activity-Personality 
+# Daily Physical Activity and Personality Factors in Older Adults
 
 <br>
 
-This is a project I've been working on in my lab for a paper. The main idea is looking at the effect of personality factors on daily engagement in physical activity. The data comes from the Midlife in the United States (MIDUS) national longitudinal survey, which contains a daily diary study. 
+This is a project I've been working on in my lab for a paper. The main idea is looking at the effect of personality factors on daily engagement in physical activity. The data comes from the Midlife in the United States (MIDUS) national longitudinal survey, which contains a daily diary study. Please read the [abstract](https://github.com/stcampione/Physical-Activity-Personality/blob/main/abstract.md) from the paper.
 
 <br>
 
-This is still a work in progress and will be updated as it progresses. 
+This is still a work in progress and will be updated. 
 
 <br>
 
