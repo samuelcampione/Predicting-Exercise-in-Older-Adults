@@ -10,11 +10,17 @@ This is still a work in progress and will be updated.
 
 <br>
 
-For now, the [SAS script](https://github.com/stcampione/Physical-Activity-Personality/blob/main/bring%20in%20data%20MIDUS%20refresher.sas) is for a random effects logistic regression model looking at whether or not someone engaged in physical activity. I am currently working on the code for the full two-part mixed effects model. Additionally, I checked the personality trait scale score by writing my [own SAS code](https://github.com/stcampione/Physical-Activity-Personality/blob/main/hand_calculate_scale_scores_M1%20(1).sas) to calculate scordes and comparing results 
+For now, the SAS script ([bring in data MIDUS refresher.sas](https://github.com/stcampione/Physical-Activity-Personality/blob/main/bring%20in%20data%20MIDUS%20refresher.sas)) is for a random effects logistic regression model looking at whether or not someone engaged in physical activity. I am currently working on the code for the full two-part mixed effects model. 
 
 <br>
 
-Also included is the R script I used to check for statisticallly significant differences in the MIDUS samples ([R Script](https://github.com/stcampione/Physical-Activity-Personality/blob/main/M1%20MRef%20compare%20samples.R)).
+Additionally, I checked the personality trait scores which MIDUS constrcuted by writing my own code to get scale scores and comparing results: 
+- [Scale Scores MIDUS 1.sas](https://github.com/stcampione/Physical-Activity-Personality/blob/main/hand_calculate_scale_scores_M1%20(1).sas)
+- [Scale Scores MIDUS Refresher.sas](https://github.com/stcampione/Physical-Activity-Personality/blob/main/Scale%20Scores%20MIDUS%20Refresher.sas)
+
+<br>
+
+Also included is the R script I used to check for statisticallly significant differences in the MIDUS samples ([M1 MRef Comparison.R](https://github.com/stcampione/Physical-Activity-Personality/blob/main/M1%20MRef%20compare%20samples.R)).
 
 
 # Abstract
