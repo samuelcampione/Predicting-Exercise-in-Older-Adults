@@ -1,26 +1,23 @@
-# Daily Physical Activity and Personality Factors in Older Adults
+# Predicting Daily Physical Activity in Older Adults
 
 <br>
 
-This is a project I've been working on in my lab for a paper. The main idea is looking at the effect of personality factors on daily engagement in physical activity. The data comes from the Midlife in the United States (MIDUS) national longitudinal survey, which contains a daily diary study. 
+In this project I explored the effect of individual differences such as personality on older adults' daily engagement in physical activity. The data comes from ICPSR's [Midlife in the United States (MIDUS) Series](https://www.icpsr.umich.edu/web/ICPSR/series/203), a national longitudinal survey which contains a daily diary study. 
 
 <br>
 
-This is still a work in progress and will be updated. 
+This SAS script for the random effects logistic regression model looking at whether or not someone engaged in physical activity is provided below. The full mixed effects model has faced some non-convergence issues.
+- [bring in data MIDUS refresher.sas](https://github.com/stcampione/Physical-Activity-Personality/blob/main/bring%20in%20data%20MIDUS%20refresher.sas) 
 
 <br>
 
-For now, the SAS script ([bring in data MIDUS refresher.sas](https://github.com/stcampione/Physical-Activity-Personality/blob/main/bring%20in%20data%20MIDUS%20refresher.sas)) is for a random effects logistic regression model looking at whether or not someone engaged in physical activity. I am currently working on the code for the full two-part mixed effects model. 
-
-<br>
-
-Additionally, I checked the personality trait scores which MIDUS constrcuted by writing my own code to get scale scores and comparing results: 
+I validated MIDUS's factors scoring by calculating my own scale scores and comapring:
 - [Scale Scores MIDUS 1.sas](https://github.com/stcampione/Physical-Activity-Personality/blob/main/hand_calculate_scale_scores_M1%20(1).sas)
 - [Scale Scores MIDUS Refresher.sas](https://github.com/stcampione/Physical-Activity-Personality/blob/main/Scale%20Scores%20MIDUS%20Refresher.sas)
 
 <br>
 
-Also included is the R script I used to check for statisticallly significant differences in the MIDUS samples ([M1 MRef Comparison.R](https://github.com/stcampione/Physical-Activity-Personality/blob/main/M1%20MRef%20compare%20samples.R)).
+I further checked for significant differences in the samples ([M1 MRef Comparison.R](https://github.com/stcampione/Physical-Activity-Personality/blob/main/M1%20MRef%20compare%20samples.R)).
 
 
 # Abstract
